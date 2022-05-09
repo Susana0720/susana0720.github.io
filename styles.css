@@ -1,0 +1,160 @@
+:root {
+    --primer_color: #53cc3b;
+    --segundo_color: #4f9c38;
+    --tercer_color: #cff0bb;
+    --cuarto_color: black; 
+    --quinto_color: white;
+    --type: 'Radio Canada', sans-serif;
+}
+* {
+    text-decoration: none;
+    font-family: var(--type)
+       
+}
+
+.menu ul li {
+    display: inline;
+    margin: 0 1.87em;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    font-weight: 300px;
+}
+
+
+
+
+
+
+.menu a{
+    color: var(--primer_color);
+
+    
+}
+
+.hiper2{
+    border-radius: 20px;
+    border: 3px solid var(--segundo_color);
+    padding: 0.56em;
+    background-color: var(--segundo_color);
+    color: var(--quinto_color)
+}
+
+a:hover{
+    text-decoration: underline;
+    color: var(--tercer_color)
+
+}
+
+.primario{
+    background-color: var(--tercer_color)
+   
+}
+
+article{
+    width: 80%;
+    padding: 0 7.5em 0 7.5em;
+    
+}
+
+
+.marca {
+    display: flex;
+}
+
+h2{
+    font-size: 2.8em;
+    color: var(--segundo_color)
+}
+
+.logotipo {
+    padding: 0em;
+}
+
+.lista-contenedor {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 6.2em;
+}
+
+.redes-sociales h4 {
+    padding-left: 3.1em;
+    font-size: 2.5em;
+}
+
+br{
+    width: 3.7em;
+}
+
+.recurso-logo {
+    position: relative;
+    max-width: 300px;
+    background-image:url();
+    background-size: cover;
+    background-position: center;
+    margin: 1.3em 1.3em 1.3em;
+}
+
+.recurso-logo .recurso-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.recurso-logo .img{
+    width: 100%;
+    height: auto;
+
+}
+
+.logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.abajo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+footer {
+    background-color: var(--cuarto_color);
+    color:var(--quinto_color);}
+   
+
+
+    /* ##Dispositivo = Smartphones de 320px a 479px */
+@media (min-width: 320px) and (max-width: 480px) {
+    /*Aquí van las propiedades y valores según el dispositivo*/
+
+    .contenedor {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .menu ul li {
+        padding:  0px;
+        font-size: 1em;
+
+    }
+    
+    nav {
+       
+        padding: 0.6em;
+        
+        
+    }
+
+}
+
+
+
+
+
